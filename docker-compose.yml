@@ -14,5 +14,4 @@ services:
       RCON_PASSWORD: "NosSomosOsPaisChatos@2025"
     volumes:
       - ./data:/data
-      - ./world/:/data/world
     restart: unless-stopped
