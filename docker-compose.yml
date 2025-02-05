@@ -10,8 +10,9 @@ services:
       TYPE: "PAPER"
       MOTD: "server dos pais chatos"      
       ENABLE_WHITELIST: "true"
-      WHITELIST: "MrFleck"
+      WHITELIST: "MrFleck, Aerseth, uillismiti, Molina2612, DominusXXI"
       RCON_PASSWORD: "NosSomosOsPaisChatos@2025"
     volumes:
       - ./data:/data
+      - ./world:/data/world
     restart: unless-stopped
